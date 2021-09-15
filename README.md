@@ -15,7 +15,15 @@ This project using python 3.5, if your python not same i recommend using minicon
 
 ## More Information
 
-1. If you want to make new file scrapping you can run this command
+1. For started project you can run this command
+
+   ```bash
+   scrapy startproject example
+   ```
+
+   And this file it will be create in folder spiders
+
+2. If you want to make new file scrapping you can run this command
 
    ```bash
    scrapy genspider product tokopedia.com
@@ -23,7 +31,11 @@ This project using python 3.5, if your python not same i recommend using minicon
 
    And this file it will be create in folder spiders
 
-2. Running shell for test xpath in Scrapy
+3. Running shell for test xpath in Scrapy
+   ```bash
+   scrapy shell 'https://test.com/movie'
+   ```
+4. Running shell for test xpath in Scrapy
    ```bash
    scrapy shell 'https://test.com/movie'
    ```
