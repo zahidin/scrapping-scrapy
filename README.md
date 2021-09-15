@@ -21,8 +21,6 @@ This project using python 3.5, if your python not same i recommend using minicon
    scrapy startproject example
    ```
 
-   And this file it will be create in folder spiders
-
 2. If you want to make new file scrapping you can run this command
 
    ```bash
