@@ -5,7 +5,9 @@ This project using python 3.5, if your python not same i recommend using minicon
 ## Installation
 
 1. Install Scrapy
+
    See the documentation to install Scrapy on your computer: [documentation](https://docs.scrapy.org/en/latest/intro/install.html)
+
 2. Running Scrapy and generate to file csv
    ```bash
     scrapy crawl description -o result.csv
